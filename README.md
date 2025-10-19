@@ -53,7 +53,8 @@ git clone https://github.com/banerjeesayantan/CoinFall-Login-Interactive-HTML-CS
 ```
 Open the folder:
 ```
-cd CoinFall-Login
+cd CoinFall-Login-Interactive-HTML-CSS-JavaScript-Login-Page-
+
 ```
 Open index.html directly in your browser.
 (No extra setup required!)
