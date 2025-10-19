@@ -48,7 +48,7 @@ Option 1: Quick Local Run
 
 Clone this repo:
 ```
-git clone https://github.com/yourusername/CoinFall-Login.git
+git clone https://github.com/banerjeesayantan/CoinFall-Login-Interactive-HTML-CSS-JavaScript-Login-Page-.git
 
 ```
 Open the folder:
