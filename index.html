@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get a Job Pal - Login</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  
+</head>
+
+<body>
+<canvas id="coinCanvas"></canvas>
+
+  <main class="auth-container">
+    <!-- Banner -->
+    <div class="banner_contnr">
+      <img 
+        src="./Copilot_20251014_122148.png";
+        alt="Banner Image"
+        class="img_banner"
+      />
+    </div>
+
+    <!-- Login Form -->
+    <section class="auth-card">
+      <header class="auth-header">
+        <h1 class="auth-title">Login</h1>
+      </header>
+
+      <form class="auth-form" id="login-form">
+        <div class="form-group inncent">
+          <label for="email-input">Email</label>
+          <input 
+            type="email" 
+            id="email-input" 
+            class="incorrect"
+            name="email" 
+            placeholder="your@email.com" 
+            required 
+          />
+        </div>
+
+        <div class="form-group inncent">
+          <label for="password-input">Password</label>
+          <input 
+            type="password" 
+            id="password-input" 
+            name="password" 
+            class="incorrect"
+            placeholder="••••••••" 
+            required 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Sign In</button>
+        <span id="rlt_show"></span>
+      </form>
+
+      <div class="divider"><span>OR</span></div>
+
+      <div class="social-login">
+        <a href="#" class="social-btn"><i class="fa-brands fa-google"></i></a>
+        <a href="#" class="social-btn"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+
+      <footer class="auth-footer">
+        <p class="signup-text">
+          Don’t have an account? 
+          <a href="#" id="signup-link">Sign up</a>
+        </p>
+      </footer>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
